@@ -36,9 +36,9 @@ class MyClassTest {
         assertEquals(res, false);
     }
 
-//    @Test
-//    public void _ShouldNotPassWhenValueIsFive() {
-//        boolean res = myClass.myFunction(5);
-//        assertEquals(res, false);
-//    }
+    @Test
+    public void _ShouldNotPassWhenValueIsFive() {
+        boolean res = myClass.myFunction(5);
+        assertEquals(res, false);
+    }
 }
