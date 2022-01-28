@@ -30,11 +30,11 @@ class MyClassTest {
         assertEquals(res, true);
     }
 
-//    @Test
-//    public void _ShouldNotPassWhenValueIsTen() {
-//        boolean res = myClass.myFunction(10);
-//        assertEquals(res, false);
-//    }
+    @Test
+    public void _ShouldNotPassWhenValueIsTen() {
+        boolean res = myClass.myFunction(10);
+        assertEquals(res, false);
+    }
 
 //    @Test
 //    public void _ShouldNotPassWhenValueIsFive() {
